@@ -6,29 +6,31 @@ body{
 h1#name{
     letter-spacing: 3px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 42px;
+    font-size: 50px;
+    margin: 0;
 }
 h2#occupation{
    color: #c2331a;
-   font-size: 15px;
+   font-size: 20px;
+   margin: 0;
 }
 h3#personal_information{
     letter-spacing: 3px; 
-    font-size: 9px;
+    font-size: 15px;
 }
 h2{
     color: #c2331a;
     font-family: 'Bebas Neue', cursive;
-    font-size: 14px;
+    font-size: 35px;
 }
 h3{
-    font-size: 10px;
+    font-size: 20px;
 }
 h4{
-    font-size: 9px;
+    font-size: 12px;
 }
 p{
-    font-size: 8px;
+    font-size: 16px;
 }
 ul li{
     font-size: 8px;

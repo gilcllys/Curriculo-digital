@@ -1,5 +1,41 @@
-@charset "UTF-8"
-
-header{
-    background-color: black;
+@charset "UTF-8";
+body{
+    margin: 0;
+    padding: 0;
+    
 }
+/* Linha superior*/
+#linha{
+    height: 20px;
+    background-color: rgb(48, 43, 43);
+    margin-top: 30px;
+    width: 100%;
+}
+/* fim*/
+
+/* informações pessoais e foto de perfil*/
+header{
+    position: relative;
+    height: 235px; 
+    padding: 20px;
+    width: 50em;
+   margin: auto;
+}
+picture, div.information{
+    display: inline-block;
+}
+
+picture{
+    
+    margin: 0 100px 0 15px;
+}
+img{
+    border-radius: 50px;
+
+}
+.information{
+    position: relative;
+    bottom: 65px;
+    padding: 10px 10px 10px 10px;
+}
+
