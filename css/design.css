@@ -1,8 +1,5 @@
 @charset "UTF-8"
 
-div.linha{
-    width: 200px;
-    height: 10px;
+header{
     background-color: black;
-    border: 20px 0 20px 0 solid;
 }
