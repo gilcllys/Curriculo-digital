@@ -4,40 +4,40 @@ body{
     color: #272727;
 }
 h1#name{
-    letter-spacing: 3px;
+    letter-spacing: 0.1em;
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-size: 3.12em;
     margin: 0;
 }
 h2#occupation{
    color: #c2331a;
-   font-size: 20px;
+   font-size: 1.2em;
    margin: 0;
 }
 h3#personal_information{
-    letter-spacing: 3px; 
-    font-size: 15px;
+    letter-spacing: 0.1em; 
+    font-size: 1em;
 }
 h2{
     color: #c2331a;
     font-family: 'Bebas Neue', cursive;
-    font-size: 35px;
+    font-size: 2.2em;
 }
 h3{
-    font-size: 20px;
+    font-size: 1.25em;
 }
 h4{
-    font-size: 12px;
+    font-size: 0.75em;
 }
 p{
-    font-size: 16px;
+    font-size: 1em;
     text-align: justify;
 }
 li {
-    font-size: 16px;
+    font-size: 1em;
     list-style: none;
 }
 p.label{
     font-weight: bolder;
-    margin: 10px;
+    margin: 0.62em;
 }
