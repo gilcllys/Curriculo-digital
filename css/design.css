@@ -4,24 +4,27 @@ body{
     padding: 0;
     min-width: 1000px;
 }
+
+main{
+    margin: 5px 5px 0px 5px;
+}
 /* Linha superior*/
 #linha{
     height: 20px;
-    background-color: rgb(48, 43, 43);
+    background-color: rgba(48, 43, 43, 0.904);
     margin-top: 30px;
     width: 100%;
 }
-/* fim*/
+/* fim*/ 
 
 /* informações pessoais e foto de perfil*/
 header{
     position: relative;
-    height: 235px; 
+    height: 210px; 
     padding: 20px;
     width: 850px;
     min-width: 300px; 
     margin: 0  auto;
-    border: 1px solid black;
 }
 picture, div.information{
     display: inline-block;
@@ -46,3 +49,48 @@ img{
 
 /* Objectif*/
 
+#objectif{
+    width: 750px;
+    margin: 10px auto;
+}
+#objectif > p {
+    padding: 1px auto;
+    margin: 1px auto;
+    width: 550px;
+}
+#objectif > h2{
+    margin: 1px auto;
+    width: 100px;
+}
+
+/*Fim*/
+
+/* experiences profissionelles*/
+#experience_profisionnelle{
+    border: 1px solid black;
+    height: 750px;
+    min-width: 1320px;
+    max-width: 900px;
+    margin: 1px auto;
+}
+#experience_profisionnelle >h2 {
+    border: 1px solid black;
+    padding: 0 1px 0 3px;
+    width: 330px;
+    margin: 5px auto;
+}
+
+div.exp{
+    position: relative;
+    border: 1px solid black;
+    height: 300px;
+    width: 350px;
+    padding: 10px 10px 10px 10px ;
+    margin: 10px 15px 10px 35px ;
+    float: left;
+    clear: right;
+    left: 30px;
+}
+/*Fim*/
+
+/*Base*/
