@@ -1,46 +1,45 @@
 @charset "UTF-8";
 body{
-    margin: 0;
+    margin: 1px auto;
     padding: 0;
     min-width: 62.5em;
 }
 
 main{
-    margin: 10px auto;
+    margin: 0.62em auto;
 }
 /* Linha superior*/
 #linha{
-    height: 20px;
+    height: 1.25em;
     background-color: rgba(48, 43, 43, 0.904);
-    margin-top: 30px;
-    min-width: 1320px;
+    margin-top: 3em;
+    min-width: 82.5em;
 }
 
 #linha-base{
     background-color:  rgba(48, 43, 43, 0.904);;
-    min-width: 1320px;
-    height: 20px;
-    margin: 0 0 60px 0;
+    min-width: 82.5em;
+    height: 1.25em;
+    margin-bottom: 3em;
 }
 /* fim*/ 
 
 /* informações pessoais e foto de perfil*/
 header{
     position: relative;
-    height: 210px; 
-    padding: 20px;
-    width: 850px;
-    min-width: 300px; 
-    margin: 0  auto;
+    height: 13.5em; 
+    padding: 1.25em;
+    width: 46em;
+    min-width: 18.75em; 
+    margin: 10px auto;
 }
 picture, div.information{
     display: inline-block;
-
 }
 
 picture{
     
-    margin: 0 100px 0 15px;
+    margin: 10px auto;
 }
 img{
     border-radius: 50px;
@@ -51,6 +50,10 @@ img{
     position: relative;
     bottom: 65px;
     padding: 10px 10px 10px 10px;
+}
+picture, .information{
+    position: relative;
+    margin: 3px auto;
 }
 /* fim*/
 
