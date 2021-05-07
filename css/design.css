@@ -6,19 +6,19 @@ body{
 }
 
 main{
-    margin: 5px 5px 0px 5px;
+    margin: 10px auto;
 }
 /* Linha superior*/
 #linha{
     height: 20px;
     background-color: rgba(48, 43, 43, 0.904);
     margin-top: 30px;
-    width: 100%;
+    min-width: 1320px;
 }
 
 #linha-base{
     background-color:  rgba(48, 43, 43, 0.904);;
-    width: 100%;
+    min-width: 1320px;
     height: 20px;
     margin: 0 0 60px 0;
 }
