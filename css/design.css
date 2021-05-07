@@ -16,12 +16,13 @@ main{
     min-width: 82.5em;
 }
 
-#linha-base{
+/*#linha-base{
     background-color:  rgba(48, 43, 43, 0.904);;
     min-width: 82.5em;
     height: 1.25em;
     margin-bottom: 3em;
-}
+}*/
+
 /* fim*/ 
 
 /* informações pessoais e foto de perfil*/
@@ -110,27 +111,12 @@ div.exp{
 /*Base*/
 .base{
     padding: 10px;
-    height: 650px;
 }
 #contact, #divers, #formation, #competences{
-    width: 350px;
-    padding: 15px;
+    display: inline-block;
+    border: 1px solid black;
+
 }
 
-#formation{
-    position: relative;
-    left:450px;
-    top: -613px;
-    padding: 10px;
-}
 
-div.universidade{
-    margin-bottom: 60px ;
-}
-
-#competences{
-    position: relative;
-    bottom: 1215px;
-    left: 900px;
-}
 /*Fim*/
