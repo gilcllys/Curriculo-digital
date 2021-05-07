@@ -50,8 +50,10 @@ img{
 /* Objectif*/
 
 #objectif{
-    width: 750px;
+    width: 1000px;
     margin: 10px auto;
+    padding-bottom: 0;
+
 }
 #objectif > p {
     padding: 1px auto;
@@ -67,14 +69,14 @@ img{
 
 /* experiences profissionelles*/
 #experience_profisionnelle{
-    border: 1px solid black;
     height: 750px;
     min-width: 1320px;
     max-width: 900px;
     margin: 1px auto;
+    border-top: 3px  solid black;
+    border-bottom: 3px  solid black; ;
 }
 #experience_profisionnelle >h2 {
-    border: 1px solid black;
     padding: 0 1px 0 3px;
     width: 330px;
     margin: 5px auto;
@@ -82,7 +84,6 @@ img{
 
 div.exp{
     position: relative;
-    border: 1px solid black;
     height: 300px;
     width: 350px;
     padding: 10px 10px 10px 10px ;
@@ -91,6 +92,12 @@ div.exp{
     clear: right;
     left: 30px;
 }
+#accomplissements{
+    width: 400px;
+}
 /*Fim*/
 
 /*Base*/
+.base{
+    border: 1px solid black;
+}
