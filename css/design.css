@@ -109,6 +109,7 @@ div.expos{
 }
 /*Fim*/
 
+/*Media para ficar mais responsivo*/
 @media only screen and (max-width: 980px)  {
     #name, #occupation, #personal_information{
         width: fit-content;
@@ -121,5 +122,20 @@ div.expos{
     picture{
         margin: 1px auto;
     }
-
+    #contact > h2 {
+        width: fit-content;
+        margin: 1px auto;
+    }
+    #divers > h2 {
+        width: fit-content;
+        margin: 1px auto;
+    }
+    #formation > h2 {
+        width: fit-content;
+        margin: 1px auto;
+    }
+    #competences > h2 {
+        width: fit-content;
+        margin: 1px auto;
+    }
 }
