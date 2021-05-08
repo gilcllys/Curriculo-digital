@@ -36,6 +36,10 @@ img{
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.315);
     margin-right: 30px;
 }
+.information{
+    height: 100%;
+    margin-top: 45px;
+}
 /* fim*/
 
 /* Objectif*/
