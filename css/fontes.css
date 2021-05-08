@@ -29,13 +29,16 @@ h3{
 h4{
     font-size: 0.75em;
 }
+#description{
+    font-size: 1.1em;
+    font-weight: bold;
+}
 p{
     font-size: 1em;
     text-align: justify;
 }
 li {
     font-size: 1em;
-    list-style: none;
 }
 p.label{
     font-weight: bolder;
