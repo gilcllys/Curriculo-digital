@@ -7,12 +7,10 @@ h1#name{
     letter-spacing: 0.1em;
     font-family: 'Bebas Neue', cursive;
     font-size: 3.12em;
-    margin: 0;
 }
 h2#occupation{
    color: #c2331a;
    font-size: 1.2em;
-   margin: 0;
 }
 h3#personal_information{
     letter-spacing: 0.1em; 
