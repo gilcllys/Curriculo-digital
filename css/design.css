@@ -47,16 +47,19 @@ img{
 #objectif{
     margin: 10px auto;
     padding-bottom: 0;
+    width: fit-content;
+    
 
 }
 #objectif > p {
-    padding: 1px auto;
     margin: 1px auto;
-    width: 600px;
+    width: 100%;
+    
 }
 #objectif > h2{
     margin: 1px auto;
-    width: 100px;
+    width: min-content;
+    
 }
 
 /*Fim*/
